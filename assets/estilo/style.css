@@ -14,16 +14,17 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 8%);
     font-size: 12px;
     max-width: 1300px;
-    margin: 0 auto;
+}
+
+.todo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .content {
@@ -31,9 +32,7 @@ body {
     width: 26%;
     min-width: 340px;
     height: 518px;
-    margin: auto;
     padding: 34px;
-    margin-top: 18px;
     border-radius: 10px;
 }
 
